@@ -44,4 +44,8 @@ def main():
     print(f"Figure saved to {SAVE_PATH}")
 
 if __name__ == "__main__":
+<<<<<<< Updated upstream
     main()
+=======
+    main()
+>>>>>>> Stashed changes
