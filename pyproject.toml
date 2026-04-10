@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lorenz-project-mamu9533"
-version = "0.1.0"
+version = "0.1.3"
 description = "Lorenz63 model integration and ensemble analysis"
 readme = "README.md"
 license = {text = "MIT"}
@@ -21,4 +21,4 @@ dependencies = [
 dev = ["build", "twine"]
 
 [project.scripts]
-run-lorenz = "lorenz_project.run_lorenz_ensemble:main"
+run-lorenz = "lorenz_ens.run_lorenz_ensemble:main"
